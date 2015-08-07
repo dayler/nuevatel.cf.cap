@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="base" projectFiles="true">
+        <logicalFolder name="f1" displayName="appconn" projectFiles="true">
+          <itemPath>base/appconn/appclient.hpp</itemPath>
+          <itemPath>base/appconn/appconn.hpp</itemPath>
+          <itemPath>base/appconn/appmessages.hpp</itemPath>
+          <itemPath>base/appconn/compositeie.hpp</itemPath>
+          <itemPath>base/appconn/conn.hpp</itemPath>
+          <itemPath>base/appconn/ie.hpp</itemPath>
+          <itemPath>base/appconn/message.hpp</itemPath>
+          <itemPath>base/appconn/primitiveie.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>base/cqueue.hpp</itemPath>
+        <itemPath>base/exception.hpp</itemPath>
+        <itemPath>base/executor.hpp</itemPath>
+        <itemPath>base/logger.hpp</itemPath>
+        <itemPath>base/properties.hpp</itemPath>
+        <itemPath>base/socket.hpp</itemPath>
+        <itemPath>base/thread.hpp</itemPath>
+        <itemPath>base/timer.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="cf" projectFiles="true">
+        <logicalFolder name="f1" displayName="cap" projectFiles="true">
+          <logicalFolder name="f1" displayName="appconn" projectFiles="true">
+            <itemPath>cf/cap/appconn/cfie.hpp</itemPath>
+            <itemPath>cf/cap/appconn/cfmessage.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>cf/cap/block.hpp</itemPath>
+          <itemPath>cf/cap/capapp.hpp</itemPath>
+          <itemPath>cf/cap/capdialog.hpp</itemPath>
+          <itemPath>cf/cap/cftask.hpp</itemPath>
+          <itemPath>cf/cap/dialog.hpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>properties/cap10.properties</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>OracleSolarisStudio|OracleSolarisStudio</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/opt/ulcm/include</pElem>
+          </incDir>
+          <commandLine>-library=stlport4,no%Cstd -R/opt/ulcm/library -L/usr/local/lib -L/opt/ulcm/library -pthreads -lboost_thread -lresolv -lnsl -lFt -ldf -lapi -lscos -lsccp -lsocket -lrt -ldgms -lm -lswrmm -loos -ltcap -lcapv480</commandLine>
+          <preprocessorList>
+            <Elem>C7_Q</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+          <mtLevel>1</mtLevel>
+        </ccTool>
+      </compileType>
+      <item path="base/appconn/appclient.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/appconn.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/appmessages.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/compositeie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/conn.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/ie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/message.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/primitiveie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/cqueue.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/exception.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/executor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/logger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/properties.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/socket.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/thread.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/timer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/appconn/cfie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/appconn/cfmessage.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/block.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/capapp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/capdialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/cftask.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/dialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="properties/cap10.properties" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>None|Unknown</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>/opt/ulcm/include</pElem>
+            <pElem>/opt/ulcm/streams/include</pElem>
+          </incDir>
+          <commandLine>-L/usr/local/lib -L/opt/ulcm/library -Wl,-rpath,/opt/ulcm/library -lboost_thread -lFt -ldf -lapi -lscos -lsccp -lrt -ldgms -lm -lswrmm -ldl -lstream -loos -ltcap -lcapv480</commandLine>
+          <preprocessorList>
+            <Elem>C7_Q</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="base/appconn/appclient.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/appconn.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/appmessages.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/compositeie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/conn.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/ie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/message.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/appconn/primitiveie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/cqueue.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/exception.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/executor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/logger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/properties.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/socket.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/thread.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base/timer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/appconn/cfie.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/appconn/cfmessage.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/block.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/capapp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/capdialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/cftask.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cf/cap/dialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="properties/cap10.properties" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
